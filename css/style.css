@@ -1,0 +1,62 @@
+.text-grey {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(92, 92, 92);
+}
+
+.text-white {
+    font-family: 'Righteous', bold;
+    color: rgb(231, 231, 231);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+}
+.map-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(18, 161, 61);
+}
+
+.map-link:hover {
+    text-decoration: none;
+    color: rgb(26, 207, 81);
+}
+.map-link > .text-grey:hover {
+    color: rgb(26, 207, 81);
+}
+
+.link-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,.5);
+}
+
+.link-text:hover, .link-text:active {
+    color: rgb(255, 116, 92);
+    text-decoration: none;
+}
+
+.carousel-inner > .carousel-item > .carousel-img { 
+    width:100%; 
+    height:350px; 
+}
+
+.modal-content {
+    width: auto;
+}
+
+.list-group-item {
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    border-color: gold;
+    font-size: 11px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+}
+
+@media (min-width: 800px) {
+    .carousel-inner > .carousel-item > .carousel-img { 
+        width:100%; 
+        height:550px; 
+    }
+}
